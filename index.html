@@ -7,24 +7,37 @@
 	<title>Comverse</title>
 </head>
 <body>
-<div id = "mainDiv">
-	<header>
-	<img id="logoImg" scr="Images/comverse-logo.png" alt = "Comverse Logo">
-	<nav>
-	  <ul>
-	    <li><a href="#">Home</a></li>
-	    <li><a href="#">About</a></li>
-	    <li><a href="#">Contact</a></li>
-	  </ul>
-	</nav>
-		<form action="">
-			<label for="search">Search the site</label>
-			<input id="search" type="search">
-			<input type="submit" value="Search">
-		</form>
-	</header>
+	<div id = "mainDiv">
+		<header>
+			<div>
 
-</div>
+				<nav>
+
+					<ul id="manu">
+						<li><a><img id="logoImg" src="Images/comverse-logo.png" alt = "Comverse Logo"></a></li>
+						<li><a href="#">YOUR NEEDS</a></li>
+						<li><img src="Images/divider.png" alt = "menu divider"></li>
+						<li><a href="#">OUR PORTFOLIO</a></li>
+						<li><img src="Images/divider.png" alt = "menu divider"></li>
+						<li><a href="#">NEWS & MEDIA</a></li>
+						<li><img src="Images/divider.png" alt = "menu divider"></li>
+						<li><a href="#">ABOUT & COMVERSE</a></li>
+						<li>
+							<form id = "searchForm" action="search">
+								<input id="searchText" type="search" placeholder="Search..." required>
+								<input type="button" id="searchBtn" >
+							</form>
+									
+						</li>
+					</ul>
+				</nav>
+
+				
+			</div>
+
+		</header>
+
+	</div>
 
 
 </body>
