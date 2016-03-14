@@ -6,9 +6,10 @@ header {
 	margin-right:5%;
 }
 
-#mainDiv {
+.mainDiv {
 
-	text-align:center;
+	margin-left: 20%;
+	margin-right: 10%;
 }
 
 ul#manu li {
@@ -60,21 +61,32 @@ li a {
     border: none;
     color: white;
     padding: 2% 5%;
-    text-align: center;
     text-decoration: none;
-    display: inline-block;
-    margin: 4em 2em;
+    display: inline-block; 
     cursor: pointer;
-
-    font-family: "Arial", Helvetica, sans-serif;
 	font-size: small;
 	border-radius: 8px;
+	text-align:left;
+	box-shadow: 1px 1px 1px #949494;
 }
 
 .buttonLeanMore{
-    background-color: #4CAF50; 
+    background-color: #2a81c6; 
+    margin: 1em 0em;
 }
 
 main{
 	padding-top:2em;
+	background: url('../Images/slide-bg-complexity.jpg') center center no-repeat fixed;
+    background-size: cover;
+    color:white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 200; 
+    text-shadow: 1px 1px 1px #949494;
+}
+
+.lightFont{
+
+	font-weight: 100;
+	font-size:xx-large;
 }
