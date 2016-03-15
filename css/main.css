@@ -29,7 +29,7 @@ ul#manu li {
 	margin-bottom: 0;
 }
 
-li a {
+ul#manu a {
 	text-decoration: blink;
 	color: #696969;
 }
@@ -116,12 +116,17 @@ ul#bullets li{
 	    border:hidden;
 	}
 
+.buttonBullet:hover{
+	background-color: #2a81c6;
+}
+
 .card{
 
 	height: 7em;
+	max-height: 7em;
 	width: 16em;
 	padding: 2% 3% 1% 2%;
-	font-size: medium;
+	font-size: large;
 	margin-right: 2%;
 }
 
@@ -149,13 +154,43 @@ ul#bullets li{
     opacity: 1;
 }
 
-.buttonBullet:hover{
-	background-color: #2a81c6;
-}
 
 .readMore{
 	height:10%;
 	padding-top: 15%;
 	display:flex;
 	font-size: small;
+}
+
+.readMore-icon{
+
+	padding-right:1%;
+}
+
+
+/*Media adjustments*/
+@media all and (max-width: 1030px)
+{
+    .centerBlock
+    {
+        width: 99%;
+    }
+}
+
+@media all and (max-width: 912px)
+{
+    .footer-col:nth-of-type(4)
+    {
+        margin-right: 0;
+    }
+}
+
+@media all and (max-width: 775px)
+{
+
+     .slideShow
+    {
+        background-image: none;
+        padding-bottom: 0;
+    }
 }
