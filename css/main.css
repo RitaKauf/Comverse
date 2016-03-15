@@ -204,7 +204,32 @@ ul#bullets li{
 	margin-left: auto;
 	margin-right: auto;
 	width:100%;
-	overflow:auto;
+	overflow:hidden;
+	}
+
+	#topSlide{
+	width:500px;
+	margin:auto;
+	}
+}
+
+/*for high resolution mobile devices*/
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+    .card{
+	width: 100%;
+	opacity: 1;
+	margin-bottom:5px;
+	font-size: large;
+	}
+
+	.mainDiv {
+
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+	overflow:hidden;
 	}
 
 	#topSlide{
