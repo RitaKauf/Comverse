@@ -127,21 +127,19 @@ ul#bullets li{
 	padding: 2% 3% 1% 2%;
 	font-size: large;
 	margin-right: 2%;
+	opacity: 0.8;
 }
 
 .firstCard{
 	background-color: #FF3399;
-	opacity: 0.8;
 }
 
 .secondCard{
 	background-color: #66CC00;
-	opacity: 0.8;
 }
 
 .thirdCard{
 	background-color: #FF6600;
-	opacity: 0.8;
 }
 
 .slideBoxes{
@@ -170,17 +168,14 @@ ul#bullets li{
 /*Media adjustments*/
 @media all and (max-width: 1300px)
 {
-    .centerBlock
-    {
-        width: 99%;
-    }
+
 }
 
 @media all and (max-width: 900px)
 {
     .card{
 
-	width: 100px;
+	width: 150px;
 	padding: 2% 3% 1% 2%;
 	font-size: small;
 	margin-right: 2%;
@@ -190,17 +185,18 @@ ul#bullets li{
 
 	margin-left: auto;
 	margin-right: auto;
-	width:470px;
+	width:600px;
 }
 }
 
 @media all and (max-width: 775px)
 {
 
-      .card{
-
+    .card{
 	width: 100%;
-
+	opacity: 1;
+	margin-bottom:5px;
+	font-size: large;
 	}
 
 	.mainDiv {
@@ -208,5 +204,11 @@ ul#bullets li{
 	margin-left: auto;
 	margin-right: auto;
 	width:100%;
+	overflow:auto;
+	}
+
+	#topSlide{
+	width:500px;
+	margin:auto;
 	}
 }
