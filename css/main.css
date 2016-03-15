@@ -21,12 +21,13 @@ ul#manu li {
 
 #manu{
 
-	padding:0%;
+	padding:0 0 1% 0;
+	margin-bottom: 0;
 }
 
 li a {
 	text-decoration: blink;
-	color: black;
+	color: #696969;
 }
 
 #searchText
@@ -48,9 +49,9 @@ li a {
 
 #searchForm{
 	margin-left:1%;
-	border-color: black;
+	border-color: #696969;
 	border-radius:8px; 
-    border: 2px solid black;
+    border: 2px solid #696969;
     width: 8%;  
     display:inline;
     height:100%;
@@ -60,11 +61,11 @@ li a {
 
     border: none;
     color: white;
-    padding: 2% 5%;
-    text-decoration: none;
+    padding: 1% 10% 1% 2%;
+	text-shadow: 1px 1px 1px #949494;
     display: inline-block; 
     cursor: pointer;
-	font-size: small;
+	font-size: medium;
 	border-radius: 8px;
 	text-align:left;
 	box-shadow: 1px 1px 1px #949494;
@@ -90,3 +91,12 @@ main{
 	font-weight: 100;
 	font-size:xx-large;
 }
+
+.bullets{
+	display:inline-block;
+
+}
+
+.bulletLink{
+		display: none;
+	}
