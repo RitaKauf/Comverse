@@ -17,6 +17,10 @@ body{
 	width:800px;
 }
 
+#mobileMenu{
+	display: none;
+}
+
 ul#manu li {
 	font-family: "Arial", Helvetica, sans-serif;
 	list-style-type: none;
@@ -168,6 +172,9 @@ ul#bullets li{
 /*Media adjustments*/
 @media all and (max-width: 1300px)
 {
+	#mobileManu{
+		display:none;
+	}
 
 }
 
@@ -187,8 +194,13 @@ ul#bullets li{
 	margin-right: auto;
 	width:600px;
 }
+
+	#mobileManu{
+		display:none;
+	}
 }
 
+/*mobile*/
 @media all and (max-width: 775px)
 {
 
@@ -208,8 +220,35 @@ ul#bullets li{
 	}
 
 	#topSlide{
-	width:500px;
-	margin:auto;
+	width:100%;
+	margin:0;
+	
+
+	}
+
+	main{
+		padding-top:0;
+	}
+
+	#topSlideText{
+	background: url("../Images/weDoBG.png");
+	background-color:#3399CC;
+	}
+
+	.lightFont{
+		margin-top:0;
+	}
+
+	#manu{
+		display:none;
+	}
+
+	#mobileManu{
+		display:block;
+		height: 50px;
+	}
+	header{
+		margin: 15px;
 	}
 }
 
