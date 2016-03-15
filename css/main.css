@@ -2,6 +2,10 @@ header {
 	background-color: #FFFFFF;
 }
 
+body{
+	margin:0;
+}
+
 #logoImg{
 	margin-right:5%;
 }
@@ -60,12 +64,11 @@ li a {
 .button {
 
     border: none;
-    color: white;
-    padding: 1% 10% 1% 2%;
+    color: white;    
 	text-shadow: 1px 1px 1px #949494;
     display: inline-block; 
     cursor: pointer;
-	font-size: medium;
+	font-size: small;
 	border-radius: 8px;
 	text-align:left;
 	box-shadow: 1px 1px 1px #949494;
@@ -74,10 +77,12 @@ li a {
 .buttonLeanMore{
     background-color: #2a81c6; 
     margin: 1em 0em;
+    padding: 1% 10% 1% 2%;
 }
 
 main{
 	padding-top:2em;
+	padding-bottom: 1em;
 	background: url('../Images/slide-bg-complexity.jpg') center center no-repeat fixed;
     background-size: cover;
     color:white;
@@ -92,11 +97,65 @@ main{
 	font-size:xx-large;
 }
 
-.bullets{
-	display:inline-block;
-
+ul#bullets li{
+	display:inline;
+    
 }
 
-.bulletLink{
-		display: none;
+#bullets{
+
+	padding-left: 0;
+}
+
+.buttonBullet{
+		margin-right: 7px;
+	    border-radius: 3px;
+	    background-color: #D8D8D8 ;
+	    height: 13px;
+	    width: 13px;
+	    border:hidden;
 	}
+
+.card{
+
+	height: 7em;
+	width: 16em;
+	padding: 2% 3% 1% 2%;
+	font-size: medium;
+	margin-right: 2%;
+}
+
+.firstCard{
+	background-color: #FF3399;
+	opacity: 0.8;
+}
+
+.secondCard{
+	background-color: #66CC00;
+	opacity: 0.8;
+}
+
+.thirdCard{
+	background-color: #FF6600;
+	opacity: 0.8;
+}
+
+.slideBoxes{
+
+	padding-left:0;
+}
+
+.card:hover {
+    opacity: 1;
+}
+
+.buttonBullet:hover{
+	background-color: #2a81c6;
+}
+
+.readMore{
+	height:10%;
+	padding-top: 15%;
+	display:flex;
+	font-size: small;
+}
