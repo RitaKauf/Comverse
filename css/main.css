@@ -81,6 +81,26 @@ ul#menu a:hover{
 	text-decoration: underline;
 }
 
+#languageAndLogin{
+	font-family: "Arial", Helvetica, sans-serif;
+	color: #696969;
+	font-size: small;
+	padding-bottom: 8px
+}
+
+
+#languageAndLogin > select{
+	border:none;
+	font-family: "Arial", Helvetica, sans-serif;
+	color: #696969;
+	font-size: small;
+}
+
+
+#languageAndLogin > span:last-child{
+	padding-left:5px;
+
+}
 
 #searchText
 {
@@ -112,7 +132,7 @@ ul#menu a:hover{
 
 #searchForm{
 	
-    display:inline;
+    display:block;
     height:100%;
 }
 
