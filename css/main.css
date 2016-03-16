@@ -1,5 +1,6 @@
 header {
 	background-color: #FFFFFF;
+	padding:0 0 1% 0;
 }
 
 body{
@@ -8,33 +9,37 @@ body{
 
 #logoImg{
 	margin-right:5%;
+	height:52px;
+	width:150px;
 }
 
 .mainDiv {
 
 	margin-left: auto;
 	margin-right: auto;
-	width:800px;
+	width:850px;
 }
+
+
 
 #mobileMenu{
 	display: none;
 }
 
-ul#manu li {
+ul#menu li {
 	font-family: "Arial", Helvetica, sans-serif;
 	list-style-type: none;
 	display: inline;
 	font-size: small;
 }
 
-#manu{
+#menu{
 
-	padding:0 0 1% 0;
+	padding-left:0;
 	margin-bottom: 0;
 }
 
-ul#manu a {
+ul#menu a {
 	text-decoration: blink;
 	color: #696969;
 }
@@ -43,6 +48,9 @@ ul#manu a {
 {
 	margin:3px; 
 	border:hidden;
+	width:130px;
+	border-radius:7px; 
+    border: 1px solid #C0C0C0 ;
 }
 
 #searchBtn {
@@ -50,18 +58,16 @@ ul#manu a {
     padding:6px 15px;
     left:-8px;
     border:hidden;
-    background: url('../Images/searchBtn.png') no-repeat;
-    background-position-y: center;
-    background-position-x: right;
+    content: url('../Images/searchBtn.png');
+    top: 8px;
+    left: -40px;
+    padding-right:0;
 }
 
 
 #searchForm{
 	margin-left:1%;
-	border-color: #696969;
-	border-radius:8px; 
-    border: 2px solid #696969;
-    width: 8%;  
+	
     display:inline;
     height:100%;
 }
@@ -95,6 +101,7 @@ main{
     font-weight: 200; 
     text-shadow: 1px 1px 1px #949494;
 }
+
 
 .lightFont{
 
@@ -170,9 +177,18 @@ ul#bullets li{
 
 
 /*Media adjustments*/
+
+@media all and (max-width: 2000px)
+{
+	#mobileMenu{
+		display:none;
+	}
+
+}
+
 @media all and (max-width: 1300px)
 {
-	#mobileManu{
+	#mobileMenu{
 		display:none;
 	}
 
@@ -195,7 +211,7 @@ ul#bullets li{
 	width:600px;
 }
 
-	#mobileManu{
+	#mobileMenu{
 		display:none;
 	}
 }
@@ -239,11 +255,11 @@ ul#bullets li{
 		margin-top:0;
 	}
 
-	#manu{
+	#menu{
 		display:none;
 	}
 
-	#mobileManu{
+	#mobileMenu{
 		display:block;
 		height: 50px;
 	}
