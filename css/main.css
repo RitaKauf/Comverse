@@ -13,14 +13,26 @@ body{
 	width:150px;
 }
 
-.mainDiv {
+#logoImgMedium{
+	display: none;
+}
+
+.content-wrapper {
 
 	margin-left: auto;
 	margin-right: auto;
-	width:850px;
+	width:940px;
 }
 
+nav{
+	display:inline-block;
+}
 
+#searchDiv{
+
+	display:inline-block;
+	margin-left:100px;
+}
 
 #mobileMenu{
 	display: none;
@@ -29,14 +41,27 @@ body{
 ul#menu li {
 	font-family: "Arial", Helvetica, sans-serif;
 	list-style-type: none;
-	display: inline;
+	display: inline-block;
 	font-size: small;
+	padding-right:2px;
+	padding-left:2px;
+	word-spacing: 2px;
+}
+
+ul#menu li:first-child { 
+    margin-right:30px;
+    padding-left:0;
+}
+
+ul#menu li:last-child { 
+    padding-right:0;
 }
 
 #menu{
 
 	padding-left:0;
 	margin-bottom: 0;
+	display:inline-block;
 }
 
 ul#menu a {
@@ -58,15 +83,21 @@ ul#menu a {
     padding:6px 15px;
     left:-8px;
     border:hidden;
-    content: url('../Images/searchBtn.png');
+    /*content: url('../Images/searchBtn.png');*/
+    background: url('../Images/searchBtn.png') right center no-repeat #fff;
     top: 8px;
     left: -40px;
     padding-right:0;
+    outline: none;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    top: 5px;
+    cursor: pointer;
 }
 
 
 #searchForm{
-	margin-left:1%;
 	
     display:inline;
     height:100%;
@@ -134,23 +165,27 @@ ul#bullets li{
 
 .card{
 
-	width: 200px;
-	padding: 2% 3% 1% 2%;
+	width: 240px;
+	height:160px;
+	padding: 18px 18px 10px 14px;
 	font-size: large;
-	margin-right: 2%;
 	opacity: 0.8;
 }
 
 .firstCard{
 	background-color: #FF3399;
+	margin-right:50px;
 }
 
 .secondCard{
 	background-color: #66CC00;
+	margin-right:auto;
+	margin-right:50px;
 }
 
 .thirdCard{
 	background-color: #FF6600;
+	margin-right: 0;
 }
 
 .slideBoxes{
@@ -194,26 +229,77 @@ ul#bullets li{
 
 }
 
-@media all and (max-width: 900px)
+/*medium screen*/
+@media all and (max-width: 940px)
 {
+
     .card{
 
-	width: 150px;
-	padding: 2% 3% 1% 2%;
+	width: 160px;
+	height:120px;
+	padding: 18px 18px 10px 14px;
 	font-size: small;
 	margin-right: 2%;
 	}
 
-	.mainDiv {
+	.firstCard{
+		margin-right:30px;
+	}
+
+	.secondCard{
+		margin-right:auto;
+		margin-right:30px;
+	}
+
+	.thirdCard{
+		margin-right: 0;
+	}
+
+	.content-wrapper {
 
 	margin-left: auto;
 	margin-right: auto;
-	width:600px;
+	width:650px;
 }
 
 	#mobileMenu{
 		display:none;
 	}
+	
+	ul#menu li {
+		font-size: x-small;
+	}
+
+
+	ul#menu li:first-child {
+		margin-right:20px;
+	}
+
+	#logoImgMedium{
+	display: block;
+	}
+	
+	#logoImg{
+		display: none;
+	}
+
+	ul#menu li:last-child {
+		margin-right:0;
+	}
+
+	#searchText{
+		width: 90px;
+	}
+
+	#searchBtn{
+		left:-28px;
+	}
+
+	#searchDiv{
+
+		margin-left:6px;
+	}
+
 }
 
 /*mobile*/
@@ -227,7 +313,7 @@ ul#bullets li{
 	font-size: large;
 	}
 
-	.mainDiv {
+	.content-wrapper {
 
 	margin-left: auto;
 	margin-right: auto;
@@ -272,6 +358,7 @@ ul#bullets li{
 @media 
 (-webkit-min-device-pixel-ratio: 2), 
 (min-resolution: 192dpi) { 
+
     .card{
 	width: 100%;
 	opacity: 1;
@@ -279,7 +366,7 @@ ul#bullets li{
 	font-size: large;
 	}
 
-	.mainDiv {
+	.content-wrapper {
 
 	margin-left: auto;
 	margin-right: auto;
@@ -288,7 +375,33 @@ ul#bullets li{
 	}
 
 	#topSlide{
-	width:500px;
-	margin:auto;
+	width:100%;
+	margin:0;
+	
+
 	}
-}
+
+	main{
+		padding-top:0;
+	}
+
+	#topSlideText{
+	background: url("../Images/weDoBG.png");
+	background-color:#3399CC;
+	}
+
+	.lightFont{
+		margin-top:0;
+	}
+
+	#menu{
+		display:none;
+	}
+
+	#mobileMenu{
+		display:block;
+		height: 50px;
+	}
+	header{
+		margin: 15px;
+	}}
