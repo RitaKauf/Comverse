@@ -34,6 +34,14 @@ nav{
 	margin-left:100px;
 }
 
+#searchForm > span{
+	 	content: url('../Images/search_line_devider.png');
+    	position: relative;
+	    right: 38px;
+    	top: 5px;
+   		height: 20px;
+	 	} 
+
 #mobileMenu{
 	display: none;
 }
@@ -76,7 +84,7 @@ ul#menu a:hover{
 
 #searchText
 {
-	margin:3px; 
+	margin-left:3px; 
 	border:hidden;
 	width:130px;
 	border-radius:7px; 
@@ -305,8 +313,14 @@ ul#bullets li{
 
 	#searchDiv{
 
-		margin-left:6px;
+		margin-left:4px;
 	}
+
+	 #searchForm > span{
+	 	content: url('../Images/search_line_devider.png');
+    	position: relative;
+        right: 28px;
+	 	}   
 
 }
 
