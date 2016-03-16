@@ -69,6 +69,11 @@ ul#menu a {
 	color: #696969;
 }
 
+ul#menu a:hover{
+	text-decoration: underline;
+}
+
+
 #searchText
 {
 	margin:3px; 
@@ -122,6 +127,9 @@ ul#menu a {
     padding: 1% 10% 1% 2%;
 }
 
+.buttonLeanMore:hover{
+	background-color: #3399FF;
+}
 main{
 	padding-top:2em;
 	padding-bottom: 1em;
@@ -351,6 +359,10 @@ ul#bullets li{
 	}
 	header{
 		margin: 15px;
+	}
+
+	.readMore{
+		padding-top:40px;
 	}
 }
 
