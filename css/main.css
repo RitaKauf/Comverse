@@ -436,6 +436,7 @@ ul#bullets li{
 	#topSlideText{
 	background: url("../Images/weDoBG.png");
 	background-color:#3399CC;
+	opacity: 0.8;
 	}
 	
 	#bullets{
