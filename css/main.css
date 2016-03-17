@@ -160,6 +160,13 @@ ul#menu a:hover{
 	box-shadow: 1px 1px 1px #949494;
 }
 
+
+#slidesUL{
+	padding:0;
+	margin:0;
+
+}
+
 .buttonLeanMore{
     background-color: #2a81c6; 
     margin: 1em 0em;
@@ -202,6 +209,7 @@ ul#bullets li{
 #bullets{
 
 	padding-left: 0;
+	margin-bottom:30px;
 }
 
 .buttonBullet{
@@ -331,7 +339,7 @@ ul#bullets li{
 
 	margin-left: auto;
 	margin-right: auto;
-	width:650px;
+	width:652px;
 }
 
 	#mobileMenu{
@@ -340,6 +348,7 @@ ul#bullets li{
 	
 	ul#menu li {
 		font-size: x-small;
+		word-spacing: 1px;
 	}
 
 
@@ -436,7 +445,7 @@ ul#bullets li{
 	#topSlideText{
 	background: url("../Images/weDoBG.png");
 	background-color:#3399CC;
-	opacity: 0.8;
+	opacity: 0.9;
 	}
 	
 	#bullets{
