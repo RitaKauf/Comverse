@@ -163,7 +163,14 @@ ul#menu a:hover{
 .buttonLeanMore{
     background-color: #2a81c6; 
     margin: 1em 0em;
-    padding: 1% 10% 1% 2%;
+    padding: 10px 70px 10px 10px;
+    background: url("../Images/btnArrow.png")right center no-repeat;
+   	background-color: #2a81c6;
+	background-position: 95% 50%;
+}
+
+.buttonBullet > span{
+	display:none;
 }
 
 .buttonLeanMore:hover{
@@ -209,6 +216,7 @@ ul#bullets li{
 .buttonBullet:hover{
 	background-color: #2a81c6;
 }
+
 
 	#topSlide{
 		padding-bottom:40px;
@@ -271,6 +279,10 @@ ul#bullets li{
 		display:none;
 	}
 
+	.buttonBullet > span{
+		display:none;
+	}
+
 }
 
 @media all and (max-width: 1300px)
@@ -279,11 +291,19 @@ ul#bullets li{
 		display:none;
 	}
 
+	.buttonBullet > span{
+		display:none;
+	}
+
 }
 
 /*medium screen*/
 @media all and (max-width: 940px)
 {
+
+	.buttonBullet > span{
+		display:none;
+	}
 
     .card{
 
@@ -401,7 +421,11 @@ ul#bullets li{
 	background:url('../Images/slide-bg-complexity.jpg') right center no-repeat;
 	background-size: cover;
 	background-position:bottom;
-	padding-bottom:60px;
+	padding-bottom: 10px;
+	}
+
+	.slideBoxes{
+		margin-top:7px;
 	}
 
 	main{
@@ -412,6 +436,33 @@ ul#bullets li{
 	#topSlideText{
 	background: url("../Images/weDoBG.png");
 	background-color:#3399CC;
+	}
+	
+	#bullets{
+
+		margin-top:100px;
+		margin-left:15px;
+	}
+	
+	.buttonBullet{
+
+		width:initial;
+		height:initial;
+		font-family: "Arial", Helvetica, sans-serif;
+		color: #696969;
+		padding: 8px 12px 8px 12px;
+	}
+
+	.buttonBullet:hover{
+		color:white;
+	}
+
+	.buttonBullet > span{
+		display:block;
+	}
+
+	.buttonLeanMore{
+		margin-left:15px;
 	}
 
 	.lightFont{
@@ -429,8 +480,9 @@ ul#bullets li{
 	#mobileMenu{
 		display:block;
 		height: 50px;
-		padding-top:30px;
+		padding-top:20px;
 		padding-bottom:10px;
+		text-align:center;
 	}
 	header{
 		margin: 0 11px 0 11px;
@@ -444,7 +496,7 @@ ul#bullets li{
 		padding-top:40px;
 	}
 
-	#mobileMenu label{
+	#mobileMenu button{
 		background:	#F0F0F0 ;
 		border-color: black;
 		border-radius: 4px;
@@ -454,13 +506,15 @@ ul#bullets li{
 		cursor: pointer;
 		float:left;
 		margin-left:3px;
+		
 	} 
 
-	#mobileMenu label:last-child{
+	#mobileMenu button:last-child{
 		float:right;
 		padding:9px 9px 4px 9px;
 		margin-right:3px;
 	}
+
 }
 
 /*for high resolution mobile devices*/
