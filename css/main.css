@@ -94,16 +94,27 @@ ul#menu a:hover{
 	font-family: "Arial", Helvetica, sans-serif;
 	color: #696969;
 	font-size: small;
+	cursor: pointer;
 }
 
+#languageAndLogin > select:hover{
+	text-decoration: underline;
+}
 
-#languageAndLogin > span:last-child{
+#languageAndLogin > span{
 	padding-left:5px;
+	cursor: pointer;
 
 }
+
+#languageAndLogin > span:hover{
+	text-decoration: underline;
+
+	}
 
 #searchText
 {
+	padding-right:30px;
 	margin-left:3px; 
 	border:hidden;
 	width:130px;
@@ -198,6 +209,11 @@ ul#bullets li{
 .buttonBullet:hover{
 	background-color: #2a81c6;
 }
+
+	#topSlide{
+		padding-bottom:40px;
+	}
+
 
 .card{
 
@@ -340,7 +356,23 @@ ul#bullets li{
 	 	content: url('../Images/search_line_devider.png');
     	position: relative;
         right: 28px;
-	 	}   
+	 	}  
+
+	 	#languageAndLogin{
+		font-size: x-small;
+		}
+
+
+	#languageAndLogin > select{
+		font-size: x-small;
+		padding-right:0;
+	}
+
+
+	#languageAndLogin > span{
+		padding-left:0;
+
+	} 
 
 }
 
@@ -366,12 +398,15 @@ ul#bullets li{
 	#topSlide{
 	width:100%;
 	margin:0;
-	
-
+	background:url('../Images/slide-bg-complexity.jpg') right center no-repeat;
+	background-size: cover;
+	background-position:bottom;
+	padding-bottom:60px;
 	}
 
 	main{
 		padding-top:0;
+		background:	#D8D8D8  ;
 	}
 
 	#topSlideText{
@@ -386,17 +421,45 @@ ul#bullets li{
 	#menu{
 		display:none;
 	}
+	
+	#searchDiv{
 
+		display:none;
+	}
 	#mobileMenu{
 		display:block;
 		height: 50px;
+		padding-top:30px;
+		padding-bottom:10px;
 	}
 	header{
-		margin: 15px;
+		margin: 0 11px 0 11px;
+		padding:0;
 	}
 
+	header nav:first-child{
+		display:none;
+	}
 	.readMore{
 		padding-top:40px;
+	}
+
+	#mobileMenu label{
+		background:	#F0F0F0 ;
+		border-color: black;
+		border-radius: 4px;
+		padding:12px 9px 7px 9px;
+		border: 1px solid #C8C8C8;
+		box-shadow:  1px 1px 1px 1px #949494;
+		cursor: pointer;
+		float:left;
+		margin-left:3px;
+	} 
+
+	#mobileMenu label:last-child{
+		float:right;
+		padding:9px 9px 4px 9px;
+		margin-right:3px;
 	}
 }
 
