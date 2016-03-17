@@ -46,6 +46,10 @@ nav{
 	display: none;
 }
 
+#slidesUL li[name="secondSlide"], #slidesUL li[name="thirdSlide"], #slidesUL li[name="fourthSlide"]{
+	display:none;
+}
+
 ul#menu li {
 	font-family: "Arial", Helvetica, sans-serif;
 	list-style-type: none;
@@ -278,6 +282,22 @@ ul#bullets li{
 	padding-right:1%;
 }
 
+#solutionsDiv{
+	background:url("../Images/weDoBG.png");
+	background-color: #3399CC;
+	width:100%;
+	height: 350px;
+	text-align: center;
+	padding-top:60px;
+}
+
+#solutionsDiv h1{
+	margin: 0;
+	color:white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-large;
+	font-weight: 100;
+}
 
 /*Media adjustments*/
 
@@ -296,7 +316,7 @@ ul#bullets li{
 @media all and (max-width: 1300px)
 {
 	#mobileMenu{
-		display:none;
+,		display:none;
 	}
 
 	.buttonBullet > span{
