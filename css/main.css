@@ -414,6 +414,22 @@ ul#bullets li{
 	opacity: 1;
 	margin-bottom:5px;
 	font-size: large;
+	border-radius: 0px;
+	background:url("../Images/promotion-item-arrow.png")no-repeat;
+	background-position: 90% 50%;
+	}
+	
+
+	.firstCard{
+		background-color: #FF3399;
+	}
+
+	.secondCard{
+		background-color: #66CC00;
+	}
+
+	.thirdCard{
+		background-color: #FF6600;
 	}
 
 	.content-wrapper {
@@ -581,6 +597,7 @@ ul#bullets li{
     #dropDownMenuMobile li a{
 		text-decoration:blink;
     }
+
 }
 
 /*for high resolution mobile devices*/
