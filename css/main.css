@@ -506,7 +506,7 @@ ul#bullets li{
 		padding-top:40px;
 	}
 
-	#mobileMenu button{
+	#mobileMenu label{
 		background:	#F0F0F0 ;
 		border-color: black;
 		border-radius: 4px;
@@ -518,13 +518,61 @@ ul#bullets li{
 		margin-left:3px;
 		
 	} 
+	
+		input[type=checkbox]
+	{
+	    display: none;
+	}
 
-	#mobileMenu button:last-child{
+	#mobileMenu label:last-child{
 		float:right;
 		padding:9px 9px 4px 9px;
 		margin-right:3px;
 	}
 
+	.optionsMobile ~ ul, .searchMobile
+	{
+	    display: none;
+	}
+
+	#optionsCheckBox{
+		display:none;
+	}
+
+	.optionsMobile:checked ~ ul
+    {
+        display: block;
+        width: 100%;
+        padding-left: 0;
+        z-index: 10;
+        position: absolute;
+        text-align: left;
+    }
+
+
+    #searchCheckBox{
+		display:none;
+	}
+	
+	.searchMobile:checked ~ #searchMobileTextBox
+    {
+        display: block;
+        position: absolute;
+        right:150px;
+        width:200px;
+        
+        border-radius: 5px;
+    }
+	
+	.searchMobile, #searchMobileTextBox
+    {
+       	display:none;
+    }
+
+    #searchMobileTextBox{
+
+
+    }
 }
 
 /*for high resolution mobile devices*/
@@ -629,7 +677,7 @@ ul#bullets li{
 		padding-top:40px;
 	}
 
-	#mobileMenu button{
+	#mobileMenu label{
 		background:	#F0F0F0 ;
 		border-color: black;
 		border-radius: 4px;
@@ -642,7 +690,7 @@ ul#bullets li{
 		
 	} 
 
-	#mobileMenu button:last-child{
+	#mobileMenu label:last-child{
 		float:right;
 		padding:9px 9px 4px 9px;
 		margin-right:3px;
