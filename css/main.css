@@ -539,7 +539,7 @@ ul#bullets li{
 		display:none;
 	}
 
-	.optionsMobile:checked ~ ul
+	.optionsMobile:checked ~ #dropDownMenuMobile
     {
         display: block;
         width: 100%;
@@ -547,6 +547,8 @@ ul#bullets li{
         z-index: 10;
         position: absolute;
         text-align: left;
+        list-style-type: none;
+        background-color: white;
     }
 
 
@@ -559,8 +561,7 @@ ul#bullets li{
         display: block;
         position: absolute;
         right:150px;
-        width:200px;
-        
+        width:36%;
         border-radius: 5px;
     }
 	
@@ -569,9 +570,16 @@ ul#bullets li{
        	display:none;
     }
 
-    #searchMobileTextBox{
 
+    #dropDownMenuMobile li{
+		border:1px black;
+		padding:7px;
+		border: 1px solid grey;
+		border-radius: 5px;
+    }
 
+    #dropDownMenuMobile li a{
+		text-decoration:blink;
     }
 }
 
