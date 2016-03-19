@@ -364,7 +364,7 @@ content:url("../Images/social-icon-hover.png") ;
 	height:350px;
 }
 
-#eventsSection h1{
+.headLine{
 	margin-top:0;
 	font-family:Arial, Helvetica, sans-serif;
 	color:white;
@@ -501,6 +501,79 @@ content:url("../Images/social-icon-hover.png") ;
 	color:black;
 }
 
+#storiesSection{
+	height:400px;
+	background-color: #E8E8E8 ;
+	padding-top:60px;
+	text-align: center;
+}
+
+.successHeadLine{
+	color:#696969;
+}
+
+#successStoriesBoxes li {
+	display:inline-block;
+}
+
+#successStoriesBoxes ul {
+	padding:0;
+}
+
+#firstSStory{
+
+	width:350px;
+	height:180px;
+	background-color: white;
+	margin-bottom: 10px;
+}
+
+#secondSStory{
+
+	width:260px;
+	height:180px;
+	background-color: white;
+	display:inline-block;
+}
+
+#thirdSStory{
+
+	width:170px;
+	height:220px;
+	background-color: white;
+	display:block;
+}
+
+.SStoryThreeBoxes span{
+	margin-right:10px;
+	height:100%;
+	width:107px;
+	background-color: white;
+	display:inline-block;
+}
+
+.SStoryThreeBoxes span:last-child{
+	margin-right:0;
+}
+
+.SStoryThreeBoxes{
+	height:100px;
+	width:350px;
+	display:inline-block;
+}
+
+.secondSStory{
+	display:block;
+	margin-bottom:10px;
+}
+
+.thirdStory{
+	width:170px;
+}
+
+.thirdStory span{
+	width:50px;
+}
 
 /*Media adjustments*/
 
@@ -846,7 +919,7 @@ content:url("../Images/social-icon-hover.png") ;
     }
 
     #eventsSection{
-    	height:700px;
+    	height:740px;
     }
 
     #eventsListMain{
