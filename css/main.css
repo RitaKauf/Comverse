@@ -282,7 +282,7 @@ ul#bullets li{
 	padding-right:1%;
 }
 
-#solutionsDiv{
+#solutionsSection{
 	background:url("../Images/weDoBG.png");
 	background-color: #3399CC;
 	width:100%;
@@ -298,6 +298,66 @@ ul#bullets li{
 	font-size: xx-large;
 	font-weight: 100;
 }
+
+#solutionsImages{
+	margin-top:40px;
+	padding:0;
+}
+
+#solutionsImages > li{
+	padding:0 10px 0 0;
+	display:inline-block;
+	color:white;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#solutionsImages > li a{
+	cursor:pointer;
+	}
+
+
+#solutionsImages > li img{
+	height:80px;
+}
+
+#solutionsImages > li:last-child{
+	padding:0 ;
+	display:inline-block;
+}
+
+
+#DataMon:hover img{
+content:url("../Images/solution_icon_smart-money_hover.png") ;
+
+}
+
+#M2M:hover img{
+content:url("../Images/robot-icon-hover.png") ;
+
+}
+
+#OTT:hover img{
+content:url("../Images/solution_icon_optimize-efficnt_hover.png") ;
+
+}
+
+#CloudComp:hover img{
+content:url("../Images/cloud-icon-hover.png") ;
+
+}
+
+#ManagedSer:hover img{
+content:url("../Images/managed-services-hover.png") ;
+
+}
+
+#SocialM:hover img{
+content:url("../Images/social-icon-hover.png") ;
+
+}
+
+
 
 /*Media adjustments*/
 
