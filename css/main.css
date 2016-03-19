@@ -537,6 +537,7 @@ content:url("../Images/social-icon-hover.png") ;
 	height:180px;
 	background-color: white;
 	margin-bottom: 10px;
+	padding-top:3px;
 }
 
 #secondSStory{
@@ -545,6 +546,7 @@ content:url("../Images/social-icon-hover.png") ;
 	height:180px;
 	background-color: white;
 	display:inline-block;
+	padding-top:3px;
 }
 
 #thirdSStory{
@@ -554,6 +556,7 @@ content:url("../Images/social-icon-hover.png") ;
 	background-color: white;
 	display:block;
 	margin-bottom:10px;
+	padding-top:3px;
 }
 
 .SStoryThreeBoxes span{
@@ -586,6 +589,67 @@ content:url("../Images/social-icon-hover.png") ;
 .thirdStory span{
 	width:98px;
 }
+
+#successStoriesBoxes div{
+	border-radius:1px;
+} 
+
+#firstSStory span{
+	display:inline-block;
+}
+
+
+#firstBoxStory{
+	margin:15px 10px 10px 10px;
+	height:110px;
+	border-bottom: 1px solid #C8C8C8;
+}
+
+#firstSStory span{
+	float:left;
+	padding-right:10px;
+}
+
+.storiesFont{
+	text-align: left;
+	color:#696969;
+	font-size:large;
+	font-family:Arial, Helvetica, sans-serif;
+	word-spacing: 2px;
+}
+
+#firstBoxStory span:first-child img{
+	height:90px;
+}
+
+#secondBoxStory span h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:medium;
+	text-align: left;
+	margin:0;
+	color:#33CCFF;
+	font-weight:100;
+}
+
+
+#secondBoxStory{
+	margin: 0 10px 2px 10px;
+}
+
+#secondBoxStory span{
+	font-size:small;
+}
+
+
+#secondBoxStory span:last-child{
+	padding-left:20px;
+}
+
+#secondBoxStory img{
+	height:40px;
+
+}
+
 
 /*Media adjustments*/
 
