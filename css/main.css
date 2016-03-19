@@ -483,6 +483,10 @@ content:url("../Images/social-icon-hover.png") ;
 
 	} 
 
+	#solutionsSection{
+		height:400px;
+	}
+
 }
 
 /*mobile*/
@@ -535,6 +539,7 @@ content:url("../Images/social-icon-hover.png") ;
 
 	main{
 		padding-top:0;
+		padding-bottom:5px;
 		background:	#D8D8D8  ;
 	}
 
@@ -676,6 +681,14 @@ content:url("../Images/social-icon-hover.png") ;
 
     #dropDownMenuMobile li a{
 		text-decoration:blink;
+    }
+
+    #solutionsImages > li img{
+    	height:50px;
+    }
+
+    #solutionsSection{
+    	height:360px;
     }
 
 }
