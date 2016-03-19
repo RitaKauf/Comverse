@@ -469,7 +469,7 @@ content:url("../Images/social-icon-hover.png") ;
 }
 
 #eventsListLinks li a div{
-	width:260px;
+	width:280px;
 }
 
 
@@ -627,9 +627,16 @@ content:url("../Images/social-icon-hover.png") ;
 	} 
 
 	#solutionsSection{
-		height:400px;
+		height:500px;
 	}
 
+	#eventsSection
+	{
+		height:500px;
+	}
+	#eventsListLinks{
+		display:none;
+	}
 }
 
 /*mobile*/
@@ -832,6 +839,41 @@ content:url("../Images/social-icon-hover.png") ;
 
     #solutionsSection{
     	height:360px;
+    }
+
+    #seeAllbutton{
+    	display:none;
+    }
+
+    #eventsSection{
+    	height:700px;
+    }
+
+    #eventsListMain{
+    	margin-top:30px;
+    	text-align: center;
+    }
+
+    .eventsList li{
+    	display:block;
+    	margin-left:5%;
+    	margin-right:5%;
+    }
+
+    .eventList{
+    	display:block;
+    }
+
+    .solutionsDiv{
+    	width:100%;
+    }
+
+    #eventsListMain a span{
+    	font-size:large;
+    }
+
+    .soldHeadLines{
+    	margin-top: 30px;
     }
 
 }
