@@ -381,7 +381,7 @@ content:url("../Images/social-icon-hover.png") ;
 .solutionsDiv{
 	background-color: white;
 	opacity: 0.4;
-	width:280px;
+	width:286px;
 	height:130px;
 	border-radius: 3px;
 	padding-top: 3px;
@@ -408,6 +408,12 @@ content:url("../Images/social-icon-hover.png") ;
 	display:inline-block;
 	text-align: left;
 	padding-right:30px;
+}
+
+
+.eventsList li:last-child {
+	
+	padding-right:0;
 }
 
 .eventsList {
@@ -514,6 +520,11 @@ content:url("../Images/social-icon-hover.png") ;
 
 #successStoriesBoxes li {
 	display:inline-block;
+	margin-right:9px;
+}
+
+#successStoriesBoxes li:last-child {
+	margin-right:0;
 }
 
 #successStoriesBoxes ul {
@@ -522,7 +533,7 @@ content:url("../Images/social-icon-hover.png") ;
 
 #firstSStory{
 
-	width:350px;
+	width:345px;
 	height:180px;
 	background-color: white;
 	margin-bottom: 10px;
@@ -530,7 +541,7 @@ content:url("../Images/social-icon-hover.png") ;
 
 #secondSStory{
 
-	width:260px;
+	width:345px;
 	height:180px;
 	background-color: white;
 	display:inline-block;
@@ -538,16 +549,17 @@ content:url("../Images/social-icon-hover.png") ;
 
 #thirdSStory{
 
-	width:170px;
-	height:220px;
+	width:210px;
+	height:180px;
 	background-color: white;
 	display:block;
+	margin-bottom:10px;
 }
 
 .SStoryThreeBoxes span{
 	margin-right:10px;
 	height:100%;
-	width:107px;
+	width:105px;
 	background-color: white;
 	display:inline-block;
 }
@@ -558,21 +570,21 @@ content:url("../Images/social-icon-hover.png") ;
 
 .SStoryThreeBoxes{
 	height:100px;
-	width:350px;
+	width:345px;
 	display:inline-block;
 }
 
-.secondSStory{
+.secondStory{
 	display:block;
 	margin-bottom:10px;
 }
 
 .thirdStory{
-	width:170px;
+	width:100%;
 }
 
 .thirdStory span{
-	width:50px;
+	width:98px;
 }
 
 /*Media adjustments*/
