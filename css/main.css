@@ -357,6 +357,97 @@ content:url("../Images/social-icon-hover.png") ;
 
 }
 
+#eventsSection{
+
+	background:url("../Images/news-and-events-bg.jpg") 50% 100% no-repeat fixed;
+	background-size: cover;
+	height:350px;
+}
+
+#eventsSection h1{
+	margin-top:0;
+	font-family:Arial, Helvetica, sans-serif;
+	color:white;
+	font-size: xx-large;
+	font-weight: 100;
+}
+
+
+#eventsSection{
+	text-align: center;
+	padding-top: 60px;
+}
+
+.solutionsDiv{
+	background-color: white;
+	opacity: 0.4;
+	width:260px;
+	height:130px;
+	border-radius: 3px;
+	padding-top: 3px;
+}
+
+.solutionsDiv:hover{
+	opacity:0.7;
+}
+
+#eventsList li div:first-child{
+	font-family:Arial, Helvetica, sans-serif;
+	color:white;
+	font-size: xx-large;
+	font-weight: 100;
+	
+}
+.soldHeadLines
+{
+	margin-bottom:10px;
+
+}
+
+#eventsList li {
+	display:inline-block;
+	text-align: left;
+	padding-right:30px;
+}
+
+#eventsList {
+	text-align: left;
+	margin-top:70px;
+	padding-left:0;
+
+}
+
+#eventsList a {
+	cursor: pointer;
+}
+
+.date{
+	background-color: #3399CC;
+	margin: 10px;
+	width:70px;
+	height:100px;
+	opacity:1;
+	border-radius: 2px;
+}
+
+.date1{
+	width:100%;
+	height:60%;
+	color:white;
+	margin:1px;
+	font-size:x-large;
+	text-align: center;
+	border-bottom: 1px dotted;
+}
+
+.date2{
+	width:100%;
+	height:40%;
+	color:white;
+	margin:1px;
+	font-size:large;
+	text-align: center;
+}
 
 
 /*Media adjustments*/
@@ -376,7 +467,7 @@ content:url("../Images/social-icon-hover.png") ;
 @media all and (max-width: 1300px)
 {
 	#mobileMenu{
-,		display:none;
+		display:none;
 	}
 
 	.buttonBullet > span{
