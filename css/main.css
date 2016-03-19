@@ -391,7 +391,7 @@ content:url("../Images/social-icon-hover.png") ;
 	opacity:0.7;
 }
 
-#eventsList li div:first-child{
+#eventsListMain li div:first-child{
 	font-family:Arial, Helvetica, sans-serif;
 	color:white;
 	font-size: xx-large;
@@ -404,24 +404,24 @@ content:url("../Images/social-icon-hover.png") ;
 
 }
 
-#eventsList li {
+.eventsList li {
 	display:inline-block;
 	text-align: left;
 	padding-right:30px;
 }
 
-#eventsList {
+.eventsList {
 	text-align: left;
 	margin-top:70px;
 	padding-left:0;
 
 }
 
-#eventsList a {
+#eventsListMain a {
 	cursor: pointer;
 }
 
-#eventsList a span{
+#eventsListMain a span{
 	display:block;
 	font-size:small;
 	color:black;
@@ -457,6 +457,48 @@ content:url("../Images/social-icon-hover.png") ;
 	margin:1px;
 	font-size:large;
 	text-align: center;
+}
+
+.eventsLinks div{
+	font-size: small;
+	color:white;
+}
+
+#eventsListLinks{
+	margin-top:0;
+}
+
+#eventsListLinks li a div{
+	width:260px;
+}
+
+
+#eventsListLinks li a {
+	cursor:pointer;
+}
+
+#firstEventLink:hover img{
+	content:url("../Images/eventListIconNews_hover.png");
+}
+
+#firstEventLink:hover div{
+	color:black;
+}
+
+#secondEventLink:hover img{
+	content:url("../Images/eventListIconEvents_hover.png");
+}
+
+#secondEventLink:hover div{
+	color:black;
+}
+
+#thirdEventLink:hover img{
+	content:url("../Images/eventListIconEvents_hover.png");
+}
+
+#thirdEventLink:hover div{
+	color:black;
 }
 
 
