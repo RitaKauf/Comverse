@@ -421,6 +421,16 @@ content:url("../Images/social-icon-hover.png") ;
 	cursor: pointer;
 }
 
+#eventsList a span{
+	display:block;
+	font-size:small;
+	color:black;
+	float:right;
+	margin-right:10px;
+	margin-top:15px;
+	margin-left:3px;
+}
+
 .date{
 	background-color: #3399CC;
 	margin: 10px;
